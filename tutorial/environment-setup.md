@@ -1,7 +1,7 @@
 
 # Environment Setup
 
-gprc를 사용하기 위한 환경설정을 합니다.
+전체 튜토리얼을 따라가기 위한 환경 설정을 합니다.
 
 * go 설치
 * grpc 서버를 만들기 위한 go 관련 패키지 설치
@@ -21,7 +21,7 @@ WIP
 
 ## grpc 서버를 만들기 위한 go 관련 패키지 설치
 
-gprc에서 사용되는 Google protocol buffers의 go버젼을 설치하고 사용하기 위해서는 C++ protocol buffers 구현체가 필요합니다. 
+grpc에서 사용되는 Google protocol buffers의 go버젼을 설치하기위해서는 C++ protocol buffers 구현체가 필요합니다. 
 
 [https://github.com/google/protobuf/releases](https://github.com/google/protobuf/releases)에서 최신 버젼의 protobuf-cpp zip를 받아 설치합니다.
 
