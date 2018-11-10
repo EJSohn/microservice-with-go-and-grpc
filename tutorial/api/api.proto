@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package api;
+
+service UserGuide {
+    rpc GetPoint(Profile) returns (Point) {}
+    rpc ListUsers(Point) returns (stream User) {}
+}
+
+message User {
+    Profile profile = 1;
+    Point cache = 2;
+}
+
+message Profile {
+    int32 age = 1;
+    string name = 2;
+}
+
+message Point {
+    int32 value = 1;
+}

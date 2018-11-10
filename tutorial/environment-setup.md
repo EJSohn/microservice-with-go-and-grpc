@@ -23,7 +23,7 @@ WIP
 
 grpc에서 사용되는 Google protocol buffers의 go버젼을 설치하기위해서는 C++ protocol buffers 구현체가 필요합니다. 
 
-[https://github.com/google/protobuf/releases](https://github.com/google/protobuf/releases)에서 최신 버젼의 protobuf-cpp zip를 받아 설치합니다.
+다음은 [https://github.com/google/protobuf/releases](https://github.com/google/protobuf/releases)에서 최신 버젼의 protobuf-cpp zip를 받아 설치하는 과정입니다.
 
 * Mac OS
 ```
@@ -65,5 +65,3 @@ go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
 ```
 WIP
 ```
-
-## grpc 웹 클라이언트를 만들기 위한 javascript 관련 패키지 설치
