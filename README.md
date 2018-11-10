@@ -9,5 +9,5 @@
 
 * [presentation file](https://speakerdeck.com/ejsohn/microservice-with-go-and-grpc)
 * [video]()
-* [tutorial](./tutorial/README.md)
+* [tutorial](./tutorial/)
 * [references](./references.md)
